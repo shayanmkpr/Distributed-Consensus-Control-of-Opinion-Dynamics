@@ -10,14 +10,12 @@ The objective is to optimize the opinions of agents in a network while balancing
 
 The total cost to be minimized is the combination of **local cost** and **global cost**:
 
-$$
-\text{Objective Function} = \sum_{i=1}^N \text{cost}_{\text{local}}[i] + \text{cost}_{\text{global}}
-$$
+$$\text{Objective Function} = \sum_{i=1}^N \text{cost}_{\text{local}}[i] + \text{cost}_{\text{global}}$$
 
 1. **Local Cost**: 
-   For an agent \( j \), the local cost is defined as:
+   For an agent $$\( j \)$$, the local cost is defined as:
    $$
-   \text{cost}_{\text{local}}[i] = \sum_{j=1}^N w[i][j] \cdot |x[j][i] - M[i]|^2
+   $$\text{cost}_{\text{local}}[i]$$ = $$\sum_{j=1}^N w[i][j] \cdot |x[j][i] - M[i]|^2$$
    $$
    Where:
    - \( x[j][i] \): Opinion of node \( j \) with respect to agent \( i \)
