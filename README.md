@@ -14,9 +14,7 @@ $$\text{Objective Function} = \sum_{i=1}^N \text{cost}_{\text{local}}[i] + \text
 
 1. **Local Cost**: 
    For an agent $$\( j \)$$, the local cost is defined as:
-   $$
    $$\text{cost}_{\text{local}}[i]$$ = $$\sum_{j=1}^N w[i][j] \cdot |x[j][i] - M[i]|^2$$
-   $$
    Where:
    - \( x[j][i] \): Opinion of node \( j \) with respect to agent \( i \)
    - \( M[i] \): Shared opinion value for agent \( i \)
@@ -96,13 +94,3 @@ To enhance learning efficiency:
    $$
    Q^\pi(s_t, a) = \mathbb{E}_{\pi} \left[ \sum_{t=0}^T r_t \right]
    $$
-
-## Code and Model Details
-
-The full code is available in this repository. The project integrates custom neural networks for actors and critics using PyTorch or TensorFlow, with detailed layers and activation functions.
-
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/project-name.git
