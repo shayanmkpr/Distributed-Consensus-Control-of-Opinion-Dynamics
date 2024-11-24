@@ -14,7 +14,7 @@ $$\(text{Objective Function} = \sum_{i=1}^N \text{cost}_{\text{local}}[i] + \tex
 
 1. **Local Cost**: 
    For an agent $$\( j \)$$, the local cost is defined as:
-   $$\text{cost}_{\text{local}}[i]$$ = $$\sum_{j=1}^N w[i][j] \cdot |x[j][i] - M[i]|^2$$
+   $$\(text{cost}_{\text{local}}[i]$$ = $$\sum_{j=1}^N w[i][j] \cdot |x[j][i] - M[i]|^2\)$$
    Where:
    - \( x[j][i] \): Opinion of node \( j \) with respect to agent \( i \)
    - \( M[i] \): Shared opinion value for agent \( i \)
